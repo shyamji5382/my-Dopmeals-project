@@ -6,14 +6,14 @@ const About = () => {
     <main className="flex-grow">
       {/* About Us Hero/Intro Section */}
       <section className="py-16 text-center bg-gray-50">
-        <h1 className="text-5xl font-extrabold text-red-500 mb-6 relative inline-block after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:transform after:-translate-x-1/2 after:w-24 after:h-1 after:bg-red-500 after:rounded-full">About Dopameal</h1>
+        <h1 className="text-5xl font-extrabold text-red-500 mb-6 relative inline-block">About Dopameal</h1>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-12">At Dopameal, we believe that healthy eating should be simple, enjoyable, and tailored to your unique needs. Our mission is to empower you to make informed food choices that nourish your body and mind, leading to a happier, healthier lifestyle.</p>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto">We combine cutting-edge technology with expert nutritional guidance to bring you a personalized experience. From instant food scanning to mood-based recipe suggestions, Dopameal is your trusted partner on your wellness journey.</p>
       </section>
 
       {/* Our Team Section */}
       <section className="py-16 text-center bg-white">
-        <h2 className="text-4xl font-bold text-gray-800 mb-12 relative inline-block after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:transform after:-translate-x-1/2 after:w-16 after:h-1 after:bg-gray-800 after:rounded-full">Meet Our Team</h2>
+       <h2 className="text-4xl font-bold text-gray-800 mb-12 relative inline-block">Meet Our Team</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
           {/* Team Member 1: Shyamji Patel */}
           <div className="bg-gray-50 p-8 rounded-2xl shadow-lg transition duration-300 hover:translate-y-[-10px] hover:shadow-xl flex flex-col items-center">

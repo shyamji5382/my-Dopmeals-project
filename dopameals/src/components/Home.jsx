@@ -374,7 +374,7 @@ const Home = () => {
 
     return (
         <main className="font-sans antialiased text-gray-900">
-           
+
 
             {/* Hero Section with Sliding Background */}
             <section className="relative overflow-hidden text-white h-[60vh] min-h-[500px] flex items-center justify-center w-full">
@@ -391,23 +391,23 @@ const Home = () => {
                 ))}
 
                 {/* Content */}
-              <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
-      <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6 drop-shadow-lg animate-fade-in-down">
-        {heroImages[currentSlide].title}
-      </h1>
-      <p className="text-lg md:text-xl mb-10 opacity-90 drop-shadow-md animate-fade-in-up">
-        {heroImages[currentSlide].subtitle}
-      </p>
+                <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
+                    <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6 drop-shadow-lg animate-fade-in-down">
+                        {heroImages[currentSlide].title}
+                    </h1>
+                    <p className="text-lg md:text-xl mb-10 opacity-90 drop-shadow-md animate-fade-in-up">
+                        {heroImages[currentSlide].subtitle}
+                    </p>
 
-      {/* Updated button to navigate to DietPlan */}
-      <button
-        onClick={() => window.location.href = '/diet-plan'}
-        className="cta-btn bg-teal-600 hover:bg-teal-700 text-white px-10 py-4 rounded-full text-lg font-semibold shadow-xl transition duration-300 transform hover:scale-105 active:scale-95 animate-bounce-in"
-      >
-        lets start diet plan
-      </button>
-    </div>
-                
+                    {/* Updated button to navigate to DietPlan */}
+                    <button
+                        onClick={() => window.location.href = '/diet-plan'}
+                        className="cta-btn bg-teal-600 hover:bg-teal-700 text-white px-10 py-4 rounded-full text-lg font-semibold shadow-xl transition duration-300 transform hover:scale-105 active:scale-95 animate-bounce-in"
+                    >
+                        lets start diet plan
+                    </button>
+                </div>
+
 
                 {/* Navigation Dots */}
                 <div className="absolute bottom-8 left-0 right-0 z-10 flex justify-center gap-2">
@@ -428,7 +428,7 @@ const Home = () => {
                 style={{ backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('https://images.unsplash.com/photo-1518609462217-1f912e753444?q=80&w=2070&auto=format&fit=crop')`, backgroundAttachment: 'fixed' }}
             >
                 <div className="container mx-auto px-6"> {/* Added container for content centering */}
-                    <h2 className="text-5xl md:text-6xl font-bold text-gray-800 mb-20 relative inline-block after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:transform after:-translate-x-1/2 after:w-32 after:h-2 after:bg-teal-500 after:rounded-full after:opacity-75">How Dopameal Works</h2>
+                    <h2 className="text-5xl md:text-6xl font-bold text-gray-800 mb-20 relative inline-block after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:transform after:-translate-x-1/2 after:w-32 after:h-2  after:rounded-full after:opacity-75">How Dopameal Works</h2>
                     <div className="flex flex-wrap justify-center gap-12">
                         <div className="step max-w-sm bg-white p-10 rounded-3xl shadow-xl transition duration-500 hover:translate-y-[-20px] hover:shadow-3xl border border-teal-100 flex flex-col items-center transform hover:rotate-1-sm">
                             <i className="fas fa-camera text-6xl text-teal-600 mb-8 bg-teal-50 p-6 rounded-full transition duration-300 hover:text-white hover:bg-teal-600 shadow-md"></i>
@@ -456,7 +456,7 @@ const Home = () => {
                 style={{ backgroundImage: `linear-gradient(rgba(240, 255, 255, 0.9), rgba(224, 247, 247, 0.9)), url('https://images.unsplash.com/photo-1542831371-d227b689a746?q=80&w=2070&auto=format&fit=crop')`, backgroundAttachment: 'fixed' }}
             >
                 <div className="scanner-content p-14 rounded-2xl bg-white shadow-3xl max-w-4xl mx-auto border border-teal-200 transform -skew-y-1 rotate-1-md hover:skew-y-0 hover:rotate-0 transition-all duration-500">
-                    <h2 className="text-5xl font-bold text-teal-700 mb-8 relative inline-block after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:transform after:-translate-x-1/2 after:w-24 after:h-1.5 after:bg-teal-600 after:rounded-full after:opacity-75">Food Scanner</h2>
+                    <h2 className="text-5xl font-bold text-teal-700 mb-8 relative inline-block after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:transform after:-translate-x-1/2 after:w-24 after:h-1.5 after:rounded-full after:opacity-75">Food Scanner</h2>
                     <p className="text-lg text-gray-700 mb-12 max-w-2xl mx-auto">Get instant nutritional insights by uploading a photo of your meal. Our intelligent scanner helps you understand what you're eating at a glance.</p>
                     <div className="flex justify-center flex-wrap gap-8">
                         <button onClick={handleCameraClick} className="bg-gradient-to-r from-teal-600 to-cyan-700 hover:from-teal-700 hover:to-cyan-800 text-white px-10 py-4 rounded-full text-lg font-semibold shadow-lg transition duration-300 transform hover:scale-105 active:scale-95 flex items-center justify-center min-w-[200px]">
@@ -479,7 +479,7 @@ const Home = () => {
                 style={{ backgroundImage: `linear-gradient(rgba(240, 255, 255, 0.9), rgba(224, 247, 247, 0.9)), url('https://images.unsplash.com/photo-1498837140813-f938f2b7f756?q=80&w=2070&auto=format&fit=crop')`, backgroundAttachment: 'fixed' }}
             >
                 <div className="max-w-2xl mx-auto px-6"> {/* Added px-6 for mobile padding */}
-                    <h2 className="text-5xl font-bold text-teal-800 mb-10 relative inline-block after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:transform after:-translate-x-1/2 after:w-32 after:h-1.5 after:bg-teal-600 after:rounded-full after:opacity-75">Your Personalized Daily Plan 🌱</h2>
+                    <h2 className="text-5xl font-bold text-teal-800 mb-10 relative inline-block after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:transform after:-translate-x-1/2 after:w-32 after:h-1.5 after:rounded-full after:opacity-75">Your Personalized Daily Plan 🌱</h2>
                     <p className="text-lg text-gray-700 mb-12 max-w-3xl mx-auto px-4">
                         Estimate your daily calorie, protein, and carb needs based on your weight and height. This helps you set realistic dietary goals.
                         <br />
@@ -539,12 +539,10 @@ const Home = () => {
             </section>
 
             {/* Recipes Section */}
-            <section
-                className="py-20 text-center bg-cover bg-center relative w-full"
-                style={{ backgroundImage: `linear-gradient(rgba(240, 255, 255, 0.9), rgba(224, 247, 247, 0.9)), url('https://images.unsplash.com/photo-1547496502-cef873a23fde?q=80&w=2070&auto=format&fit=crop')`, backgroundAttachment: 'fixed' }}
-            >
+
+            <section className="py-20 text-center bg-cover bg-center relative w-full" style={{ backgroundImage: `linear-gradient(rgba(240, 255, 255, 0.9), rgba(224, 247, 247, 0.9)), url('https://images.unsplash.com/photo-1547496502-cef873a23fde?q=80&w=2070&auto=format&fit=crop')`, backgroundAttachment: 'fixed' }}>
                 <div className="container mx-auto px-6"> {/* Added container for content centering */}
-                    <h2 className="text-5xl font-bold text-teal-700 mb-14 relative inline-block after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:transform after:-translate-x-1/2 after:w-32 after:h-2 after:bg-teal-500 after:rounded-full after:opacity-75">Featured Recipes</h2>
+                    <h2 className="text-5xl font-bold text-teal-700 mb-14 relative inline-block after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:transform after:-translate-x-1/2 after:w-32 after:h-2 after:rounded-full after:opacity-75">Featured Recipes</h2>
 
                     {/* Filter and Sort Controls */}
                     <div className="flex flex-wrap justify-center gap-5 mb-12">
@@ -627,11 +625,12 @@ const Home = () => {
                 </div>
             </section>
 
+
             {/* Mood-Based Recipes Section */}
             <section className="py-20 text-center relative overflow-hidden w-full" style={{ background: moodSuggestion.background }}>
                 <div className="absolute inset-0 opacity-20" style={{ backgroundImage: `url('https://www.transparenttextures.com/patterns/clean-textile.png')` }}></div>
                 <div className="container mx-auto px-6"> {/* Added container for content centering */}
-                    <h2 className="text-5xl font-bold text-white mb-10 drop-shadow-md relative inline-block after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:transform after:-translate-x-1/2 after:w-36 after:h-2 after:bg-white after:rounded-full after:opacity-50">Recipes for Every Mood</h2>
+                    <h2 className="text-5xl font-bold text-white mb-10 drop-shadow-md">Recipes for Every Mood</h2>
                     <p className="text-lg text-white mb-12 max-w-3xl mx-auto drop-shadow-sm">Select your current mood and discover delicious recipes tailored just for you to enhance your well-being!</p>
                     <div className="max-w-md mx-auto mb-12 relative z-10">
                         <div className="relative">
@@ -653,7 +652,19 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="mood-suggestion-card bg-white p-10 rounded-2xl shadow-3xl max-w-3xl mx-auto text-left border-l-8 border-teal-500 transition duration-700 transform hover:scale-105 hover:rotate-1-sm relative z-10">
-                        <img src={moodSuggestion.image} alt={moodSuggestion.name} className="w-full h-72 object-cover rounded-lg mb-7 shadow-md transform rotate-1-sm" onError={(e) => e.target.src = 'https://via.placeholder.com/700x250/F0F0F0/666666?text=Recipe+Suggestion+Not+Found'} />
+                        <img
+                            src={{
+                                happy: "https://media.istockphoto.com/id/1130110637/photo/citrus-salad-with-mixed-greens-and-blood-orange-vegan-vegetarian-clean-eating-dieting-food.jpg?s=612x612&w=0&k=20&c=C30OOjpn6YfPW7jH6jQxzqBvzZdG92XUEKVaxFYfRuc=",
+                                calm: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+                                comfort: "https://www.springermountainfarms.com/wp-content/uploads/2022/10/CreamySun-DriedTomatoBasilChicken-1033x584.jpeg",
+                                focused: "https://hips.hearstapps.com/hmg-prod/images/mind-diet-salmon-salad-684ff7d1b3f60.jpg?resize=1200:*",
+                                adventurous: "https://piquantpost.com/cdn/shop/articles/GJ16a1y2HDD3gYjmojg2t_1000x.jpg?v=1646021297",
+                                angry: "https://static.toiimg.com/photo/69385334.cms",
+                                default: "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?auto=format&fit=crop&w=800&q=80"
+                            }[selectedMood] || 'https://via.placeholder.com/700x250/F0F0F0/666666?text=Recipe+Suggestion+Not+Found'}
+                            alt={moodSuggestion.name}
+                            className="w-full h-72 object-cover object-center rounded-lg mb-7 shadow-md"
+                        />
                         <h3 className="text-3xl font-bold text-gray-800 mb-4 flex items-center">
                             <i className={`${moodSuggestion.icon} text-teal-600 mr-4 text-3xl`}></i> {moodSuggestion.name}
                         </h3>

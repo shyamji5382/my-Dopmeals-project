@@ -6,7 +6,7 @@ const allRecipes = [
         id: "berry-parfait",
         name: "Light & Fit Berry Parfait",
         description: "A delicious and healthy layered treat, perfect for breakfast or a snack.",
-        image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1780&auto=format&fit=crop",
+        image: "https://www.yummyfoodrecipes.com/resources/picture/org/Yogurt-Mixed-Berry-Parfait.jpg",
         ingredients: [
             "1 cup mixed berries (fresh or frozen)",
             "1/2 cup Greek yogurt",
@@ -58,7 +58,7 @@ const allRecipes = [
         id: "green-salad",
         name: "Lean Green Salad",
         description: "A light, refreshing, and healthy salad perfect for any meal.",
-        image: "https://media.istockphoto.com/id/1270993747/photo/healthy-fresh-green-salad-overhead-view.jpg?s=612x612&w=is&k=20&c=o4IJAr4A0ljVVm7jD00ZKfyeEZ5PCDbpDQPM3nv5Sa4=",
+        image: "https://media.istockphoto.com/id/953810510/photo/green-salad-with-fresh-vegetables.jpg?s=612x612&w=0&k=20&c=OyC-xDuR4SUnY3CCnzXc1RAI12CxpLF0g-M8yQ_NeUs=",
         ingredients: [
             "4 cups mixed greens",
             "1 cucumber, sliced",
@@ -86,7 +86,7 @@ const allRecipes = [
         id: "lentil-soup",
         name: "Comforting Lentil Soup",
         description: "A hearty and warm soup, perfect for a cozy evening.",
-        image: "https://imgs.search.brave.com/pWGRLYyb10zf4FT0a83AvraYZuxLBjpd29WbGdmfNCI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9saXR0/bGVzcGljZWphci5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjAvMDkvTGVtb255/LVJlZC1MZW50aWwt/U291cC1EYWwtU291/cC0xOS03MzV4MTEw/My5qcGc",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-t01hnYO5TjCljg_PvV1JFG9p46_SDn2nKA&s",
         ingredients: [
             "1 tbsp olive oil",
             "1 onion, chopped",
@@ -117,7 +117,7 @@ const allRecipes = [
         id: "quinoa-bowl",
         name: "Mediterranean Quinoa Bowl",
         description: "A vibrant and nutritious bowl packed with fresh flavors.",
-        image: "https://imgs.search.brave.com/XfzpI2eBlaIvovM-S2PxhPCvtXtfOKVSFCqfFMOIISU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/Zml0bWl0dGVua2l0/Y2hlbi5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjEvMDYv/U291dGh3ZXN0LVF1/aW5vYS1Qb3dlci1C/b3dsLTExLTY4M3gx/MDI0LmpwZw",
+        image: "https://media.istockphoto.com/id/893716434/photo/healhty-vegan-lunch-bowl-avocado-quinoa-sweet-potato-tomato-spinach-and-chickpeas-vegetables.jpg?s=612x612&w=0&k=20&c=Iq4JOLbBYugsBqGjfoT2T9teJ0hd-sAVtTilVi_0PRM=",
         ingredients: [
             "1 cup cooked quinoa",
             "1/2 cup chopped cucumber",
@@ -147,7 +147,7 @@ const allRecipes = [
         id: "fish-tacos",
         name: "Exotic Mango Salsa Fish Tacos",
         description: "A burst of tropical flavors for an adventurous palate.",
-        image: "https://imgs.search.brave.com/ZC7HAWzRLPYNWHbHAbxfygIs126Gj4BCnW_9-Hw7q_A/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9uYXRh/c2hhc2tpdGNoZW4u/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE3LzA4L0Vhc3kt/RmlzaC1UYWNvcy13/aXRoLXRoZS1CZXN0/LUZpc2gtVGFjby1T/YXVjZS02MDB4OTAw/LmpwZw",
+        image: "https://media.istockphoto.com/id/1200136076/photo/shrimp-street-tacos.jpg?s=612x612&w=0&k=20&c=QSliAiLbFEmF7WPN69yEc-weAInG6A4GquGxaGEgBzE=",
         ingredients: [
             "1 lb white fish fillets (cod, tilapia), seasoned and cooked",
             "8 small corn tortillas",
@@ -177,7 +177,7 @@ const allRecipes = [
         id: "baked-salmon",
         name: "Baked Salmon with Asparagus",
         description: "A simple yet elegant dish, rich in omega-3s.",
-        image: "https://imgs.search.brave.com/6n12K-ktXB1jCnJ4DFms3VXd6knr3ijIeBalF--LMRI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/YWxscmVjaXBlcy5j/b20vdGhtYi9tUkpf/aXJ0dk1KUkx1OTBE/aFdHdi0zUjgzbzA9/LzE1MDB4MC9maWx0/ZXJzOm5vX3Vwc2Nh/bGUoKTptYXhfYnl0/ZXMoMTUwMDAwKTpz/dHJpcF9pY2MoKS8y/MTE3Ni1iYWtlZC1k/aWpvbi1zYWxtb24t/bWZzLXN0ZXA0LTR4/My1jNTA5N2MzZThi/YjA0NDZlYjEyZDY1/ZWNlMjlkNmVhYS5q/cGc",
+        image: "https://media.istockphoto.com/id/1939144114/photo/fried-salmon-steak-and-garlic-brussels-sprouts-and-lemon-served-on-wooden-table.jpg?s=612x612&w=0&k=20&c=GzRi4nLY9AsEdWzmuDq-Dd1heWwdZWd7OZ1XalGU3ic=",
         ingredients: [
             "2 salmon fillets",
             "1 bunch asparagus, trimmed",
@@ -205,7 +205,7 @@ const allRecipes = [
         id: "avocado-toast",
         name: "Avocado Toast with Poached Egg",
         description: "A classic healthy breakfast or brunch option.",
-        image: "https://imgs.search.brave.com/WoG0aiYS7mzTxpN-CZenJSqjabIcS-1wi38Cobt7_xI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9taW5p/bWFsaXN0YmFrZXIu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE2LzA3L015LUdP/LVRPLUF2b2NhZG8t/VG9hc3QtNS1taW51/dGVzLTMtaW5ncmVk/aWVudHMtU08tZGVs/aWNpb3VzLXZlZ2Fu/LWdsdXRlbmZyZWUt/YXZvY2Fkby1yZWNp/cGUtaGVhbHRoeS5q/cGc",
+        image: "https://media.istockphoto.com/id/1139597774/photo/toast-with-mashed-avocado-arugula.jpg?s=612x612&w=0&k=20&c=MXJpDlUCAMVnHCIuO6d4uq8iRXrJXegAYkGeuoTd5Wc=",
         ingredients: [
             "2 slices whole-grain bread, toasted",
             "1 ripe avocado, mashed",
@@ -229,7 +229,7 @@ const allRecipes = [
         id: "chicken-skewers",
         name: "Chicken and Vegetable Skewers",
         description: "Grilled perfection for a light and satisfying meal.",
-        image: "https://imgs.search.brave.com/sI_QTzS6JIuboc0sSbvGKXmIagZhQ4Yoao3fq30UOpU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9j/aGlja2VuLXNrZXdl/cnMtd2l0aC1zbGlj/ZXMtYXBwbGVzLWNo/aWxpLXRvcC12aWV3/XzI4MjktMTk5OTYu/anBnP3NlbXQ9YWlz/X2h5YnJpZCZ3PTc0/MA",
+        image: "https://www.shutterstock.com/image-photo/deliciously-spiced-chicken-tikka-kabab-600nw-2495838045.jpg",
         ingredients: [
             "1 lb chicken breast, cut into 1-inch cubes",
             "1 bell pepper, cut into 1-inch pieces",
@@ -258,7 +258,7 @@ const allRecipes = [
         id: "green-smoothie-bowl",
         name: "Green Smoothie Bowl",
         description: "A refreshing and nutrient-packed bowl for a healthy start.",
-        image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=2070&auto=format&fit=crop",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlsfyV-PCyk6bQiBAFkEZjScLvByZunmvb3g&s",
         ingredients: [
             "1 cup spinach",
             "1/2 frozen banana",

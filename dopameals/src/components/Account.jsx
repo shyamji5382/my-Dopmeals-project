@@ -170,7 +170,7 @@ const Account = () => {
 
                         {/* Sample Recipe Card 3 */}
                         <div className="recipe-card bg-gray-50 rounded-lg shadow-md overflow-hidden">
-                            <img src="https://imgs.search.brave.com/21nVUy6kVwtIdvb2799h-bdjKJHo4p7onQ6amgWWFbA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGhu/bWJuYWlscy8wMzIv/MjQ1LzMwNC9zbWFs/bC9jaGlja2VuLWN1/cnJ5LWluLWEtYm93/bC13aXRoLXNwaWNl/cy1hbmQtaGVyYnMt/YWktZ2VuZXJhdGVk/LWZyZWUtcGhvdG8u/anBn" alt="Spicy Curry" className="w-full h-40 object-cover" />
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGsFmlcS9kcJ0yThLbMieHmldNnNVVzM-KDA&s" alt="Spicy Curry" className="w-full h-40 object-cover" />
                             <div className="p-6">
                                 <h4 className="text-xl font-semibold text-gray-800 mb-2">Spicy Chicken Curry</h4>
                                 <p className="text-gray-600 text-sm mb-4">A flavorful and aromatic chicken curry with a kick.</p>
@@ -184,7 +184,7 @@ const Account = () => {
 
                         {/* Add more recipe cards as needed */}
                         <div className="recipe-card bg-gray-50 rounded-lg shadow-md overflow-hidden">
-                            <img src="https://imgs.search.brave.com/nWqOHgXdJgE_OXPE3EihIbtOFhRs8m9oMVeCqX65j38/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vcy5saWdo/dG9yYW5nZWJlYW4u/Y29tL21lZGlhLzIw/MjQwOTE0MTUyNDI3/L1ZlZ2FuLUNhcHJl/c2UtRGVsaWdodF8t/cG9zdC0zLTc2OHg0/MjIucG5nP3Jlc2l6/ZT03NjgsNDgyJnF1/YWxpdHk9ODAmc3Ns/PTE" alt="Vegan Delight" className="w-full h-40 object-cover" />
+                            <img src="https://savoringtoday.com/wp-content/uploads/2023/02/Roasted-Veg-close-up-bowl.jpg" alt="Vegan Delight" className="w-full h-40 object-cover" />
                             <div className="p-6">
                                 <h4 className="text-xl font-semibold text-gray-800 mb-2">Roasted Vegetable Medley</h4>
                                 <p className="text-gray-600 text-sm mb-4">A simple yet delicious mix of roasted seasonal vegetables.</p>
@@ -197,7 +197,7 @@ const Account = () => {
                         </div>
 
                         <div className="recipe-card bg-gray-50 rounded-lg shadow-md overflow-hidden">
-                            <img src="https://imgs.search.brave.com/Sebz8xlcNwvjfrkncZNWIyYU6piPBiVNld93ISl2rF4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZWF0aW5nd2VsbC5j/b20vdGhtYi9HTFN4/c2ZfSFhZYjlrSDNG/UGphdlN5LVRQUzQ9/LzE1MDB4MC9maWx0/ZXJzOm5vX3Vwc2Nh/bGUoKTptYXhfYnl0/ZXMoMTUwMDAwKTpz/dHJpcF9pY2MoKS8x/MTA1MjQtRWF0aW5n/V2VsbF9hbnRpLWlu/ZmFtLUJmYXN0Qm93/bC00MzgyLTVlYmIw/NTZhMDJkNDQxYTc4/YjQ3MWU4ZjIwYjRj/YjZkLmpwZw" alt="Breakfast Bowl" className="w-full h-40 object-cover" />
+                            <img src="https://www.crowdedkitchen.com/wp-content/uploads/2020/07/strawberries-and-cream-smoothie-bowl.jpg" alt="Breakfast Bowl" className="w-full h-40 object-cover" />
                             <div className="p-6">
                                 <h4 className="text-xl font-semibold text-gray-800 mb-2">Berry Smoothie Bowl</h4>
                                 <p className="text-gray-600 text-sm mb-4">A refreshing and nutritious breakfast bowl packed with berries.</p>
