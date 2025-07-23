@@ -3,32 +3,46 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className="bg-white py-4 shadow-md">
-      <nav className="flex justify-between items-center max-w-6xl mx-auto px-4">
-        <Link to="/" className="logo flex items-center text-2xl font-bold text-green-600">
-          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/80032314-4a54-4a20-b14e-a4eee1d848f2.png" alt="Dopameal Logo" className="h-10 w-10 mr-2 rounded-full shadow-sm" />
+    <header className="bg-white shadow-md sticky top-0 z-50">
+      <nav className="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
+
+        {/* Logo */}
+        <Link to="/" className="flex items-center text-xl font-bold text-green-600">
+          <img
+            src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/80032314-4a54-4a20-b14e-a4eee1d848f2.png"
+            alt="Dopameal Logo"
+            className="h-8 w-8 mr-1 rounded-full"
+          />
           Dopameal
         </Link>
-        <div className="flex items-center space-x-8"> {/* Increased space-x for overall spacing */}
-          <div className="flex items-center border border-gray-300 rounded-full px-3 py-1">
-            <input
-              type="text"
-              placeholder="Search..."
-              className="outline-none text-gray-500 w-30"
-            />
-            <button className="ml-2 bg-blue-500 text-gray px-2 py-1 rounded-full text-sm font-semibold hover:bg-blue-500 transition duration-300"> {/* Changed to blue-500 */}
-              search
-            </button>
-          </div>
-          <ul className="flex space-x-6">
-            <li><Link to="/" className="text-gray-600 hover:text-green-600 transition duration-300 font-medium">Home</Link></li>
-            <li><Link to="/contact" className="text-gray-600 hover:text-green-600 transition duration-300 font-medium">Contact Us</Link></li>
-            <li><Link to="/account" className="text-gray-600 hover:text-green-600 transition duration-300 font-medium">Account</Link></li>
-            <li><Link to="/about" className="text-gray-600 hover:text-green-600 transition duration-300 font-medium">About Us</Link></li>
-            <li><Link to="/login" className="text-gray-600 hover:text-green-600 transition duration-300 font-medium">Login</Link></li>
-            <li><Link to="/signup" className="signup-btn bg-green-500 text-white px-5 py-2 rounded-full font-semibold shadow-md transition duration-300 ease-in-out">Sign Up</Link></li>
-          </ul>
+
+        {/* Search Bar */}
+        <div className="flex items-center border border-gray-300 rounded-full px-3 bg-gray-50 shadow-sm h-[32px]">
+          <input
+            type="text"
+            placeholder="Search..."
+            className="bg-transparent outline-none w-28 sm:w-40 text-sm text-gray-700 px-2 h-[26px]"
+          />
+          <button className="bg-yellow-400 hover:bg-yellow-500 text-white text-xs font-semibold px-3 h-full rounded-full transition flex items-center justify-center">
+            Search
+          </button>
         </div>
+
+        {/* Navigation Links */}
+        <ul className="flex space-x-4 items-center text-gray-700 font-medium text-sm">
+          <li><Link to="/" className="hover:text-green-600 transition">Home</Link></li>
+          <li><Link to="/contact" className="hover:text-green-600 transition">Contact</Link></li>
+          <li><Link to="/account" className="hover:text-green-600 transition">Account</Link></li>
+          <li><Link to="/about" className="hover:text-green-600 transition">About</Link></li>
+          <li><Link to="/login" className="hover:text-green-600 transition">Login</Link></li>
+          <li>
+            <Link
+              to="/signup"
+              className="bg-yellow-400 hover:bg-yellow-500 text-white px-3 py-1 rounded-full transition text-xs font-medium shadow-sm">
+              Sign Up
+            </Link>
+          </li>
+        </ul>
       </nav>
     </header>
   );
